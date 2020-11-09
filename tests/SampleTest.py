@@ -9,7 +9,8 @@ from approvaltests.reporters.generic_diff_reporter_factory import GenericDiffRep
 
 class RegressionTest(unittest.TestCase):
     def setUp(self):
-        self.reporter = GenericDiffReporterFactory().get("DiffMerge")
+        self.reporter = None #Use the first difftool found on your system
+        #self.reporter = GenericDiffReporterFactory().get("DiffMerge")
         #Download DiffMerge at https://sourcegear.com/diffmerge/
 
     def test_straight_unittest(self):
