@@ -4,7 +4,7 @@ from pathlib import Path
 from setuptools import setup, find_packages
 
 HERE = Path(__file__).parent
-_version_file_contents = (HERE / "approvaltests" / "version.py").read_text()
+_version_file_contents = (HERE / "project" / "version.py").read_text()
 VERSION = re.search(r'"(.*)"', _version_file_contents).group(1)
 
 setup(
@@ -12,8 +12,8 @@ setup(
     version=VERSION,
     description="Assertion/verification library to aid testing",
     author="ApprovalTests Contributors",
-    author_email="jamesrcounts@outlook.com",
-    url="https://github.com/approvals/ApprovalTests.Python",
+    author_email="",
+    url="https://github.com/approvals/ApprovalTests.Python.starterproject",
     python_requires=">=3.6.1",
     packages=find_packages(exclude=["tests*"]),
     package_data={"approvaltests": ["reporters/reporters.json"]},
