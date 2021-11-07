@@ -1,3 +1,5 @@
+[![Test](../../workflows/test.yml/badge.svg)](../../test.yml)
+
 # ApprovalTests.Python.StarterProject
 Starter project for getting approvaltests up and running 
 
