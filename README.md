@@ -1,4 +1,4 @@
-[![Test](../../workflows/test.yml/badge.svg)](../../test.yml)
+[![Test](../../actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml)
 
 # ApprovalTests.Python.StarterProject
 Starter project for getting approvaltests up and running 
