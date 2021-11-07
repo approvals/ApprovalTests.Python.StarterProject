@@ -4,8 +4,9 @@ from pathlib import Path
 from setuptools import setup, find_packages
 
 HERE = Path(__file__).parent
-_version_file_contents = (HERE / "project" / "version.py").read_text()
-VERSION = re.search(r'"(.*)"', _version_file_contents).group(1)
+#_version_file_contents = (HERE / "project" / "version.py").read_text()
+#VERSION = re.search(r'"(.*)"', _version_file_contents).group(1)
+VERSION = "1"
 
 setup(
     name="approvaltests.startup",

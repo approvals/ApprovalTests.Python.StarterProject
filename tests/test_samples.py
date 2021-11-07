@@ -1,11 +1,13 @@
 import unittest
+import pytest
 
 from approvaltests.approvals import verify
 
 
 from approvaltests.reporters.generic_diff_reporter_factory import GenericDiffReporterFactory
 
-
+def test_pytest():
+    assert True
 
 class RegressionTest(unittest.TestCase):
     def setUp(self):
