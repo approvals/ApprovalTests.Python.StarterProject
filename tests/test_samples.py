@@ -12,7 +12,7 @@ from approvaltests import set_default_reporter
 def test_pytest():
     assert True
 
-class RegressionTest(unittest.TestCase):
+class SampleTests(unittest.TestCase):
     def setUp(self):
         set_default_reporter(None) #Use the first difftool found on your system
         #self.reporter = GenericDiffReporterFactory().get("DiffMerge")
