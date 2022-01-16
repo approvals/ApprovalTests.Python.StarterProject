@@ -1,17 +1,19 @@
 import unittest
 import pytest
 
-from approvaltests.approvals import verify
+from approvaltests.approvals import verify, verify_all
 
-
+from approvaltests.reporters.python_native_reporter import PythonNativeReporter
+from approvaltests import Options
 from approvaltests.reporters.generic_diff_reporter_factory import GenericDiffReporterFactory
+from approvaltests import set_default_reporter
 
 def test_pytest():
     assert True
 
 class RegressionTest(unittest.TestCase):
     def setUp(self):
-        self.reporter = None #Use the first difftool found on your system
+        set_default_reporter(None) #Use the first difftool found on your system
         #self.reporter = GenericDiffReporterFactory().get("DiffMerge")
         #Download DiffMerge at https://sourcegear.com/diffmerge/
 
@@ -21,6 +23,12 @@ class RegressionTest(unittest.TestCase):
 
     def test_with_approvals(self):
         from CodeGoesHere import sample
-        verify(sample(), self.reporter)
+        verify(sample())
+
+    def test_list_with_reporter(self):
+        sample = ["welcome", "to", "approvals"]
+        verify_all("words", sample,options=Options().with_reporter(PythonNativeReporter()))        
+
+            
 
 
