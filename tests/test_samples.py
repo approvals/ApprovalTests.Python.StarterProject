@@ -21,7 +21,6 @@ class SampleTests(unittest.TestCase):
     def test_straight_unittest(self):
         self.assertEqual(5,5)
 
-
     def test_with_approvals(self):
         from project.sample_function import this_is_the_function
         verify(this_is_the_function())
