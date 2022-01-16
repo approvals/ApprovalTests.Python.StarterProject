@@ -1,3 +1,4 @@
+import this
 import unittest
 import pytest
 
@@ -22,8 +23,8 @@ class RegressionTest(unittest.TestCase):
 
 
     def test_with_approvals(self):
-        from CodeGoesHere import sample
-        verify(sample())
+        from project.sample_function import this_is_the_function
+        verify(this_is_the_function())
 
     def test_list_with_reporter(self):
         sample = ["welcome", "to", "approvals"]
