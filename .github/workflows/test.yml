@@ -1,7 +1,17 @@
 
 name: Test
 
-on: [push, pull_request]
+on: 
+  push: 
+  pull_request:
+
+
+  # This workflow is only ever be triggered manually.
+  # It only runs on the main branch.
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+
 
 jobs:
   build:
