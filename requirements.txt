@@ -1,2 +1,2 @@
-approvaltests=3.1.0
+approvaltests==3.1.0
 pytest
