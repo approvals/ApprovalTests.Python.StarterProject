@@ -35,7 +35,18 @@ If you are having any difficulties, We suggest you watch the [getting started vi
 Approvaltests uses methods that start with `verify` like `verify(object_under_test)`
 The expected result is stored in a file like such:
 
-snippet: SampleTests.test_with_json.approved.txt
+<!-- snippet: SampleTests.test_with_json.approved.txt -->
+<a id='snippet-SampleTests.test_with_json.approved.txt'></a>
+```txt
+{
+    "age": 38,
+    "firstName": "jayne",
+    "isMale": true,
+    "lastName": "cobb"
+}
+```
+<sup><a href='/tests/SampleTests.test_with_json.approved.txt#L1-L6' title='Snippet source file'>snippet source</a> | <a href='#snippet-SampleTests.test_with_json.approved.txt' title='Start of snippet'>anchor</a></sup>
+<!-- endSnippet -->
 
 ## To setup in pycharm
 * Import project
