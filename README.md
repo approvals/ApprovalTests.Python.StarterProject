@@ -18,7 +18,7 @@ Starter project for getting approvaltests up and running
 Anyone that wants to do some new code in Python with Approvaltests.   
 It works great for experimentation, katas or starting a green field project.
 
-## Getting Starter
+## Getting Started
 
 If you are familar with python, you can either:
 * download the zip (under the `code` button
