@@ -19,8 +19,10 @@ Anyone that wants to do some new code in Python with Approvaltests.
 It works great for experimentation, katas or starting a green field project.
 
 ## What is included?
-* Github actions - CI that runs your tests on Mac, Windows & Linux
-* `requirements.txt` - standard place to include all pip dependiences 
+* [Github actions](https://github.com/approvals/ApprovalTests.Python.StarterProject/actions/workflows/test.yml) - CI that runs your tests on Mac, Windows & Linux  
+   This is also what powers the green 'passing' badge at the top of this document
+* `requirements.txt` - standard place to include all your [pip dependiences from pypi](https://pypi.org/) 
+* `tox.ini' - A working [tox file](https://tox.wiki/en/latest/)
 * `tests` & `project` folders - to keep your production code and tests seperate
 * Sample tests that pass - to get you off to a great start
 * [MDSnippets intergration](https://github.com/simonCropp/MarkdownSnippets) to easily add code snippets to your markdown documentation
