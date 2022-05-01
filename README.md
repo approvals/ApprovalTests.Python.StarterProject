@@ -8,11 +8,11 @@ Starter project for getting approvaltests up and running
 ## Contents
 
   * [Who is this project for?](#who-is-this-project-for)
-  * [What is included?](#what-is-included)
   * [Getting Starter](#getting-starter)
+    * [Watch the video](#watch-the-video)
+  * [What is included?](#what-is-included)
   * [Recommended Tooling?](#recommended-tooling)
-  * [ApprovalTests Basics](#approvaltests-basics)
-  * [To setup in pycharm](#to-setup-in-pycharm)<!-- endToc -->
+  * [ApprovalTests Basics](#approvaltests-basics)<!-- endToc -->
 
 ## Who is this project for?
 Anyone that wants to do some new code in Python with Approvaltests.   
