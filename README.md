@@ -32,9 +32,10 @@ If you are having any difficulties, We suggest you watch the [getting started vi
 
 ## ApprovalTests Basics
 
-Approvaltests uses method that start with `verify` like:
+Approvaltests uses methods that start with `verify` like `verify(object_under_test)`
+The expected result is stored in a file like such:
 
-snippet: verify
+snippet: SampleTests.test_with_json.approved.txt
 
 ## To setup in pycharm
 * Import project
