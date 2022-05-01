@@ -7,9 +7,12 @@ Starter project for getting approvaltests up and running
 <!-- toc -->
 ## Contents
 
- * [Heading 1](#heading-1)
- * [Heading 2](#heading-2)
-<!-- endToc -->
+  * [Who is this project for?](#who-is-this-project-for)
+  * [What is included?](#what-is-included)
+  * [Getting Starter](#getting-starter)
+  * [Recommended Tooling?](#recommended-tooling)
+  * [ApprovalTests Basics](#approvaltests-basics)
+  * [To setup in pycharm](#to-setup-in-pycharm)<!-- endToc -->
 
 ## Who is this project for?
 Anyone that wants to do some new code in Python with Approvaltests.   
