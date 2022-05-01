@@ -18,6 +18,18 @@ Starter project for getting approvaltests up and running
 Anyone that wants to do some new code in Python with Approvaltests.   
 It works great for experimentation, katas or starting a green field project.
 
+## Getting Starter
+
+If you are familar with python, you can either:
+* download the zip (under the `code` button
+
+or 
+* Fork the code by pressing `use this template`
+
+### Watch the video
+If you are having any difficulties, We suggest you watch the [getting started video](https://www.youtube.com/watch?v=2PbA273JHYE)
+
+
 ## What is included?
 * [Github actions](https://github.com/approvals/ApprovalTests.Python.StarterProject/actions/workflows/test.yml) - CI that runs your tests on Mac, Windows & Linux  
    This is also what powers the green 'passing' badge at the top of this document
@@ -26,11 +38,6 @@ It works great for experimentation, katas or starting a green field project.
 * `tests` & `project` folders - to keep your production code and tests seperate
 * Sample tests that pass - to get you off to a great start
 * [MDSnippets intergration](https://github.com/simonCropp/MarkdownSnippets) to easily add code snippets to your markdown documentation
-
-## Getting Starter
-
-If you are familar with python, you can either download the zip or fork the code.
-If you are having any difficulties, We suggest you watch the [getting started video]()
 
 ## Recommended Tooling?
 
@@ -57,12 +64,6 @@ The expected result is stored in a file like such:
 ```
 <sup><a href='/tests/SampleTests.test_with_json.approved.txt#L1-L6' title='Snippet source file'>snippet source</a> | <a href='#snippet-SampleTests.test_with_json.approved.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
-
-## To setup in pycharm
-* Import project
-* Go File > Settings > Tools > Python Integered Tools > Testing > Default Test Runner > Unittests
-* From the command line run `pip install approvaltests`
-* Open test file and click the green arrows by the tests to run
 
 
 
