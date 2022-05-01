@@ -1,10 +1,10 @@
+
 [![Test](../../actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml)
-
-
-toc 
 
 # ApprovalTests.Python.StarterProject
 Starter project for getting approvaltests up and running 
+
+toc 
 
 ## Who is this project for?
 Anyone that wants to do some new code in Python with Approvaltests.   
