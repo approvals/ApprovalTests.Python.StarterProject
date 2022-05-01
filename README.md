@@ -30,6 +30,12 @@ If you are having any difficulties, We suggest you watch the [getting started vi
   * Windows - [WinMerge](https://winmerge.org/?lang=en)
   * Mac - [DiffMerge](https://sourcegear.com/diffmerge/)   
 
+## ApprovalTests Basics
+
+Approvaltests uses method that start with `verify` like:
+
+snippet: verify
+
 ## To setup in pycharm
 * Import project
 * Go File > Settings > Tools > Python Integered Tools > Testing > Default Test Runner > Unittests
