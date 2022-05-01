@@ -4,7 +4,12 @@
 # ApprovalTests.Python.StarterProject
 Starter project for getting approvaltests up and running 
 
-toc 
+<!-- toc -->
+## Contents
+
+ * [Heading 1](#heading-1)
+ * [Heading 2](#heading-2)
+<!-- endToc -->
 
 ## Who is this project for?
 Anyone that wants to do some new code in Python with Approvaltests.   
