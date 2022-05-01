@@ -8,7 +8,7 @@ Starter project for getting approvaltests up and running
 ## Contents
 
   * [Who is this project for?](#who-is-this-project-for)
-  * [Getting Starter](#getting-starter)
+  * [Getting Started](#getting-started)
     * [Watch the video](#watch-the-video)
   * [What is included?](#what-is-included)
   * [Recommended Tooling?](#recommended-tooling)
