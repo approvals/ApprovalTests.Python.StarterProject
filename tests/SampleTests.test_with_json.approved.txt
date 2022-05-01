@@ -1,0 +1,6 @@
+{
+    "age": 38,
+    "firstName": "jayne",
+    "isMale": true,
+    "lastName": "cobb"
+}
