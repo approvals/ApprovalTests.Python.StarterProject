@@ -34,9 +34,13 @@ class SampleTests(unittest.TestCase):
                   "age": 38}
         verify_as_json(sample)
 
-    def test_list_with_reporter(self):
+    def test_list(self):
         sample = ["welcome", "to", "approvals"]
-        verify_all("words", sample, options=Options().with_reporter(PythonNativeReporter()))
+        verify_all("words", sample)
+
+    def test_with_specific_reporter(self):
+        sample = "Welcome To Approvals"
+        verify(sample, options=Options().with_reporter(PythonNativeReporter()))
 
 
 def test_pytest():
