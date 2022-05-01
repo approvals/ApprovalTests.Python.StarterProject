@@ -14,6 +14,7 @@ It works great for experimentation, katas or starting a green field project.
 * `requirements.txt` - standard place to include all pip dependiences 
 * `tests` & `project` folders - to keep your production code and tests seperate
 * Sample tests that pass - to get you off to a great start
+* [MDSnippets intergration](https://github.com/simonCropp/MarkdownSnippets) to easily add code snippets to your markdown documentation
 
 ## Getting Starter
 
