@@ -12,7 +12,8 @@ Starter project for getting approvaltests up and running
     * [Watch the video](#watch-the-video)
   * [What is included?](#what-is-included)
   * [Recommended Tooling?](#recommended-tooling)
-  * [ApprovalTests Basics](#approvaltests-basics)<!-- endToc -->
+  * [ApprovalTests Basics](#approvaltests-basics)
+  * [Next steps](#next-steps)<!-- endToc -->
 
 ## Who is this project for?
 Anyone that wants to do some new code in Python with Approvaltests.   
