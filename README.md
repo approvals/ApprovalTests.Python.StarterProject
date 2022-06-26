@@ -27,7 +27,8 @@ or
 * Fork the code by pressing `use this template`
 
 ### Watch the video
-If you are having any difficulties, We suggest you watch the [getting started video](https://www.youtube.com/watch?v=2PbA273JHYE)
+If you are having any difficulties, We suggest you watch the [getting started video](https://www.youtube.com/watch?v=2PbA273JHYE)  
+**tip:** pause the video after each step and do it so you are in sync
 
 
 ## What is included?
@@ -65,6 +66,9 @@ The expected result is stored in a file like such:
 <sup><a href='/tests/SampleTests.test_with_json.approved.txt#L1-L6' title='Snippet source file'>snippet source</a> | <a href='#snippet-SampleTests.test_with_json.approved.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
+## Next steps
+
+If you are just exploring you might want to try a sample exercise(kata). I would suggest you start with [LCD digits kata](https://codingdojo.org/kata/NumberToLCD/)
 
 
 
