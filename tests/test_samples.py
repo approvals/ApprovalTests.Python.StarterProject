@@ -1,4 +1,3 @@
-import this
 import unittest
 import pytest
 
