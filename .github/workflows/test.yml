@@ -27,4 +27,4 @@ jobs:
           pip install pytest
       - name: Test
         run: |
-          tox -e py  # Run tox using the version of Python in `PATH`
+          tox -v -e py  # Run tox using the version of Python in `PATH`
