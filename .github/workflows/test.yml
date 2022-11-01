@@ -27,4 +27,4 @@ jobs:
           pip install pytest
       - name: Test
         run: |
-          tox -e py  # Run tox using the version of Python in `PATH`
+          tox -e py  # Use the Tox environment based on whatever `python` is found on the path. See https://tox.wiki/en/latest/config.html#tox-environments
