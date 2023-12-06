@@ -54,7 +54,7 @@ If you are having any difficulties, We suggest you watch the [getting started vi
 Approvaltests uses methods that start with `verify` like `verify(object_under_test)`
 The expected result is stored in a file like such:
 
-<!-- snippet: SampleTests.test_with_json.approved.txt -->
+<!-- snippet: SampleTests.test_with_json.approved.json -->
 <a id='snippet-SampleTests.test_with_json.approved.txt'></a>
 ```txt
 {
