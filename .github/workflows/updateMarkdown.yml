@@ -1,4 +1,4 @@
-name: on-push-do-doco
+name: MdSnippets
 on:
   push:
 jobs:
