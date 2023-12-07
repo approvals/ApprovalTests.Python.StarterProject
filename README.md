@@ -55,8 +55,8 @@ Approvaltests uses methods that start with `verify` like `verify(object_under_te
 The expected result is stored in a file like such:
 
 <!-- snippet: SampleTests.test_with_json.approved.json -->
-<a id='snippet-SampleTests.test_with_json.approved.txt'></a>
-```txt
+<a id='snippet-SampleTests.test_with_json.approved.json'></a>
+```json
 {
     "age": 38,
     "firstName": "jayne",
@@ -64,7 +64,7 @@ The expected result is stored in a file like such:
     "lastName": "cobb"
 }
 ```
-<sup><a href='/tests/SampleTests.test_with_json.approved.txt#L1-L6' title='Snippet source file'>snippet source</a> | <a href='#snippet-SampleTests.test_with_json.approved.txt' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/tests/SampleTests.test_with_json.approved.json#L1-L6' title='Snippet source file'>snippet source</a> | <a href='#snippet-SampleTests.test_with_json.approved.json' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 ## Next steps
