@@ -36,6 +36,7 @@ If you are having any difficulties, We suggest you watch the [getting started vi
 * [Github actions](https://github.com/approvals/ApprovalTests.Python.StarterProject/actions/workflows/test.yml) - CI that runs your tests on Mac, Windows & Linux  
    This is also what powers the green 'passing' badge at the top of this document
 * `requirements.txt` - standard place to include all your [pip dependiences from pypi](https://pypi.org/) 
+* `constraints.txt` - standard pinned versions of pip dependencies, including transitive dependencies
 * `tox.ini' - A working [tox file](https://tox.wiki/en/latest/)
 * `tests` & `project` folders - to keep your production code and tests seperate
 * Sample tests that pass - to get you off to a great start
