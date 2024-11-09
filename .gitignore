@@ -39,3 +39,4 @@ staticfiles
 .env
 *.egg
 *.egg-info
+.approval_tests_temp/
