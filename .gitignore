@@ -40,3 +40,4 @@ staticfiles
 *.egg
 *.egg-info
 .approval_tests_temp/
+test-reports/
